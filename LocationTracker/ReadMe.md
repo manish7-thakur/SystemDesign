@@ -12,35 +12,35 @@ SQL TABLE
 users_table
 -----------
 - user_id, name, pass
-- 1, tom, 73hyw
-- 2, tom's boss, 73j3hd
+  - 1, tom, 73hyw
+  - 2, tom's boss, 73j3hd
 
 followers_table
 ---------------
 - follow_mapping_id, user_id, follows_id
--  1,                 2,        1
+  - 1,                 2,        1
 
 rules_table
 -----------
 - rule_id, follows_mapping_id, weekday, start_time, end_time
-- 1,          1,                MONDAY,    09:00,    17:00
-- 2,          1,                TUESDAY,    09:00,   17:00
-- 3,          1,                FRIDAY,    09:00,   17:00
+  - 1,          1,                MONDAY,    09:00,    17:00
+  - 2,          1,                TUESDAY,    09:00,   17:00
+  - 3,          1,                FRIDAY,    09:00,   17:00
 
 NO_SQL TABLE
 ------------
 location_table
 --------------
 - id, user_id, lat, long, time_stamp
-- 1,      1,   -26.2, 3.54, 2020-01-01T18:34:00       
+  - 1,      1,   -26.2, 3.54, 2020-01-01T18:34:00       
 
 active_rules_table
 ------------------
 - user_id, follower_id,  ttl
-- 1,       2(tom's boss), 25342        
+  - 1,       2(tom's boss), 25342        
 
 restricted_location_table
 -------------------------
 - user_id, follower_id,  location_id
-- 1,        2,             1
+  - 1,        2,             1
 
