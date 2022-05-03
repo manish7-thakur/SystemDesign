@@ -41,6 +41,6 @@ active_rules_table
 
 restricted_location_table
 -------------------------
-- user_id, follower_id,  lat,   long
-- 1,        2,          -2.32, 3.42
+- user_id, follower_id,  location_id
+- 1,        2,             1
 
