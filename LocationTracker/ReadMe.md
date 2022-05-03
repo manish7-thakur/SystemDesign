@@ -11,7 +11,7 @@ SQL TABLE
 ---------
 users_table
 -----------
-- use_id, name, pass
+- user_id, name, pass
 - 1, tom, 73hyw
 - 2, tom's boss, 73j3hd
 
