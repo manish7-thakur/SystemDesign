@@ -1,4 +1,4 @@
-Line sticker chat system(https://drive.google.com/file/d/1Nc9692dFWvt5AFvDXvUXzZN9NLoQBX-O/view?usp=sharing)
+Line sticker chat system(https://app.diagrams.net/#G1NOebm9ucwt42qlCEdlCZ1MSQbWLC6bUn)
 ===================
 Users can send stickers to their friends.
 A user can send only the stickers which they have purchased.
@@ -15,9 +15,9 @@ users_table
   - 2, tom's boss, 73j3hd
 
 packages_table
----------------
+--------------- 
 - id, name, price_usd
-  - 1, bunny_bear, 20    1
+  - 1, bunny_bear, 20
   - 2, stars, 25
 
 purchased_packages_table
